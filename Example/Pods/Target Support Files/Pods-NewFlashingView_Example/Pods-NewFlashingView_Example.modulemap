@@ -1,0 +1,6 @@
+framework module Pods_NewFlashingView_Example {
+  umbrella header "Pods-NewFlashingView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

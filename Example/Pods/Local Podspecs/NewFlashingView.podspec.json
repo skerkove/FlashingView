@@ -1,0 +1,22 @@
+{
+  "name": "NewFlashingView",
+  "version": "0.1.0",
+  "summary": "A short description of NewFlashingView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/skerkove/NewFlashingView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "skerkove": "kerkoves@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/skerkove/NewFlashingView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NewFlashingView/Classes/**/*"
+}

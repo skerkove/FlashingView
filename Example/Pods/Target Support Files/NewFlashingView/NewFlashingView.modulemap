@@ -1,0 +1,6 @@
+framework module NewFlashingView {
+  umbrella header "NewFlashingView-umbrella.h"
+
+  export *
+  module * { export * }
+}

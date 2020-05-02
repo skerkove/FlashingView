@@ -1,0 +1,16 @@
+PODS:
+  - NewFlashingView (0.1.0)
+
+DEPENDENCIES:
+  - NewFlashingView (from `../`)
+
+EXTERNAL SOURCES:
+  NewFlashingView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NewFlashingView: ed52933d22d1065483f03e40e77d58a376942be2
+
+PODFILE CHECKSUM: 195f36b2f6e3438ccc54a3fac65ba00bedd4ce94
+
+COCOAPODS: 1.9.1
