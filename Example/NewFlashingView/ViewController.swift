@@ -7,13 +7,17 @@
 //
 
 import UIKit
+import NewFlashingView
 
+@available(iOS 10.0, *)
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+
+        let flashingView = FlashingView(frame: self.view.bounds)
+                
+        self.view.addSubview(flashingView)    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()

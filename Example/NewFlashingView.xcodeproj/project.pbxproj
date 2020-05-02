@@ -29,7 +29,7 @@
 
 /* Begin PBXFileReference section */
 		0D8BF436F31389843CC71E25 /* Pods-NewFlashingView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewFlashingView_Example.release.xcconfig"; path = "Target Support Files/Pods-NewFlashingView_Example/Pods-NewFlashingView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		196D1A33B05A4521933C0AA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		196D1A33B05A4521933C0AA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5917FED2E1AD300EE0DC412A /* Pods-NewFlashingView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewFlashingView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-NewFlashingView_Tests/Pods-NewFlashingView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* NewFlashingView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewFlashingView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		6FD85DDC54D4471166F28A1E /* Pods_NewFlashingView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewFlashingView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		979AA8C0A11F3EAB5B8BBE64 /* Pods_NewFlashingView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewFlashingView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CF33B3BF43ABC3711DACE18 /* Pods-NewFlashingView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewFlashingView_Example.debug.xcconfig"; path = "Target Support Files/Pods-NewFlashingView_Example/Pods-NewFlashingView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A0FF14753417B9D2CA4AB558 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		AD1E757E91862D066B68CF8C /* NewFlashingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = NewFlashingView.podspec; path = ../NewFlashingView.podspec; sourceTree = "<group>"; };
+		A0FF14753417B9D2CA4AB558 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AD1E757E91862D066B68CF8C /* NewFlashingView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = NewFlashingView.podspec; path = ../NewFlashingView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE0EFB39AB8D146B59C50138 /* Pods-NewFlashingView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewFlashingView_Tests.release.xcconfig"; path = "Target Support Files/Pods-NewFlashingView_Tests/Pods-NewFlashingView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -156,7 +156,6 @@
 				5917FED2E1AD300EE0DC412A /* Pods-NewFlashingView_Tests.debug.xcconfig */,
 				BE0EFB39AB8D146B59C50138 /* Pods-NewFlashingView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
